@@ -11,7 +11,14 @@ MooseSays("I really am enthusiastic");
 
 //call MooseAsks function
 bool isTrue = MooseAsks("Is Canada Real?");
-Console.WriteLine(isTrue);
+if (isTrue)
+{
+  MooseSays("Really? It seems very unlikely.");
+} 
+else 
+{
+  MooseSays("I K N E W IT !!!");
+}
 
 
 
